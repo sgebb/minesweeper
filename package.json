@@ -1,0 +1,30 @@
+{
+  "name": "Elm-Basic",
+  "version": "1.0.0",
+  "description": "Minste fungerende løsning",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "gulp default",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsroedseth/elm-basic.git"
+  },
+  "author": "Mats Rødseth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matsroedseth/elm-basic/issues"
+  },
+  "homepage": "https://github.com/matsroedseth/elm-basic#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-elm": "^0.8.2",
+    "gulp-plumber": "^1.2.1",
+    "elm": "latest-0.19.1",
+    "elm-format": "^0.8.2"
+  }
+}
